@@ -1,0 +1,158 @@
+/* */
+/* start global */
+
+
+* {
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix {clear: both;}
+
+/*END global*/
+
+/* START my framework */
+
+$backgroundcolor: #EEE;
+$left: left;
+$otherColor: orange;
+
+body {
+	@media (max-width: 1280px) {
+	background: url(../images/swaentrance.png) no-repeat;
+	
+	background-size: cover;
+	font-family: Arial;
+	}
+	@media (min-width: 1281px) {
+		background-image: url(../images/swaentrance.png) no-repeat;
+		
+	}
+}
+.container {
+    max-width: 90%;
+	
+    margin: auto;
+  
+		
+}
+h2 {
+    color: $otherColor;
+	font-size: 1.3em;
+}
+
+.span-1 {
+	width: 100% - 83.333%;
+}
+
+.span-5 {
+	width: 83.333%;
+}
+
+/* END my framework*/
+
+	/*START NAV BAR*/
+
+	nav{
+		width: 100%;
+		
+		h2 {
+			font-size: 1.3em;
+			float: left;
+			
+		}
+		
+		ul {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+			
+			
+			
+			
+			li {
+				float: left;
+				position: relative;
+				
+				text-decoration: none;
+				width: 15%;
+				background-color: transparent;
+				opacity: 1;
+				line-height: 3.5em;
+				text-align: center;
+				font-size: 1.0em;
+				a {
+					text-decoration: none;
+					color: white;
+					display: block;
+					&:hover {
+						border-bottom: 1px solid green;
+						background-color: black;
+						opactity: 0.1;
+											
+						
+					}
+				
+				
+				}
+				ul li {
+						font-size: 0.6em;
+						width: 95%;
+						display: none;
+					&:hover{
+						font-weight: bold;
+						
+					}
+					}
+			}
+		}
+		
+	}
+ul li ul li {}
+ul li:hover ul li {display: block; width: 100%; }
+
+
+	/* END NAV BAR*/
+
+
+/*START ASIDE*/
+.social-network-buttons  {
+	
+	position: fixed;
+	top: 40%;
+	left: 2%;
+	
+	a {
+		text-decoration: none;
+	}
+	
+}
+
+/* END ASIDE*/
+
+/* view port less than Width 635*/
+
+/* END view prot less than Width 635*/
+
+
+/* For Desktop
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 635px) {
+	[class *="col-"] {
+		width: 100%;
+	}
+}
+*/

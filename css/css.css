@@ -1,0 +1,31 @@
+/* start global */
+body {
+
+}
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+/*END global*/
+
+/*START NAV BAR*/
+nav {
+    background-color: #EEE;
+
+    }
+nav .companyName {
+    float: left;
+}
+nav .links {
+    float: left;
+}
+/* END NAV BAR*/
+
+/*START my framework*/
+
+.clearfix {
+    clear: both;
+
+}
+/* END my framework*/

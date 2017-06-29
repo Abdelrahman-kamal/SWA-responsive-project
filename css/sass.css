@@ -1,0 +1,127 @@
+/* */
+/* start global */
+/* line 5, sass.scss */
+* {
+  box-sizing: border-box; }
+
+/* line 10, sass.scss */
+.clearfix {
+  clear: both; }
+
+/*END global*/
+/* START my framework */
+@media (max-width: 1280px) {
+  /* line 20, sass.scss */
+  body {
+    background: url(../images/swaentrance.png) no-repeat;
+    background-size: cover;
+    font-family: Arial; } }
+@media (min-width: 1281px) {
+  /* line 20, sass.scss */
+  body {
+    background-image: url(../images/swaentrance.png) no-repeat; } }
+
+/* line 32, sass.scss */
+.container {
+  max-width: 90%;
+  margin: auto; }
+
+/* line 39, sass.scss */
+h2 {
+  color: orange;
+  font-size: 1.3em; }
+
+/* line 44, sass.scss */
+.span-1 {
+  width: 16.667%; }
+
+/* line 48, sass.scss */
+.span-5 {
+  width: 83.333%; }
+
+/* END my framework*/
+/*START NAV BAR*/
+/* line 56, sass.scss */
+nav {
+  width: 100%; }
+  /* line 59, sass.scss */
+  nav h2 {
+    font-size: 1.3em;
+    float: left; }
+  /* line 65, sass.scss */
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none; }
+    /* line 73, sass.scss */
+    nav ul li {
+      float: left;
+      position: relative;
+      text-decoration: none;
+      width: 15%;
+      background-color: transparent;
+      opacity: 1;
+      line-height: 3.5em;
+      text-align: center;
+      font-size: 1.0em; }
+      /* line 84, sass.scss */
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+        display: block; }
+        /* line 88, sass.scss */
+        nav ul li a:hover {
+          border-bottom: 1px solid green;
+          background-color: black;
+          opactity: 0.1; }
+      /* line 98, sass.scss */
+      nav ul li ul li {
+        font-size: 0.6em;
+        width: 95%;
+        display: none; }
+        /* line 102, sass.scss */
+        nav ul li ul li:hover {
+          font-weight: bold; }
+
+/* line 112, sass.scss */
+ul li:hover ul li {
+  display: block;
+  width: 100%; }
+
+/* END NAV BAR*/
+/*START ASIDE*/
+/* line 119, sass.scss */
+.social-network-buttons {
+  position: fixed;
+  top: 40%;
+  left: 2%; }
+  /* line 125, sass.scss */
+  .social-network-buttons a {
+    text-decoration: none; }
+
+/* END ASIDE*/
+/* view port less than Width 635*/
+/* END view prot less than Width 635*/
+/* For Desktop
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+@media only screen and (max-width: 635px) {
+	[class *="col-"] {
+		width: 100%;
+	}
+}
+*/
+
+/*# sourceMappingURL=sass.css.map */
